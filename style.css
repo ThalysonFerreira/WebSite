@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(143, 213, 214);
+    background-image: url(/images/image-background.png);
+}
+.background{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.navebar {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 3px 5px #b1b1b1;
+    background-color: white;
+}
+
+.navebar-right {
+    align-items: center;
+    display: flex;
+
+}
+
+.navebar-right p {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.navebar-right p:hover {
+    color: rgb(252, 210, 149);
+    text-shadow: 6px 5px 3px #e2e2e2;
+}
+
+.navebar-left {
+    align-items: center;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    min-height: 90vh;
+}
+
+.painel {
+    background-color: white;
+    width: 100%;
+    padding-bottom: 10%;
+    display: flex;
+}
+
+footer{
+    width: 100%;
+    min-height: 3rem;
+    background-color: whitesmoke;
+}
+
+@media only screen and (max-width:500px){
+    body
+    {
+        font-size: 12px;
+    }
+}
